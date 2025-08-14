@@ -15,6 +15,10 @@ llm "Fun facts about pelicans"
 ```
 LLM is configured using the [llm-github-models](https://github.com/tonybaloney/llm-github-models) plugin.
 
+## Documentation
+
+- [LLM docs](https://llm.datasette.io/en/stable/)
+
 ## Related Posts
 
 - [Prompting with LLM](https://building-with-llms-pycon-2025.readthedocs.io/en/latest/prompting.html)
