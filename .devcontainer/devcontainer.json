@@ -7,5 +7,5 @@
     },
     "ghcr.io/devcontainers/features/github-cli:1": {}
   },
-  "postCreateCommand": "pip install uv && uv tool install llm && llm install llm-github-models && llm models default github/gpt-4.1 && gh extension install hazadus/gh-commitmsg"
+  "postCreateCommand": "pip install uv && uv tool install llm && uv tool install ttok && uv tool install strip-tags && llm install llm-github-models && llm models default github/gpt-4.1 && gh extension install hazadus/gh-commitmsg"
 }
