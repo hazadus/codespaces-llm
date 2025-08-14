@@ -28,6 +28,7 @@ LLM is configured using the [llm-github-models](https://github.com/tonybaloney/l
 
 - `llm "Describe this image" -a screenshot.png`
 - `llm "Extract all text" -a image.png -u`
+- `curl "https://raw.githubusercontent.com/hazadus/bluesky-reader/refs/heads/main/feeds/2025-08-13.md" | llm "Составь обзор, о чем писали в ленте за день" -u`
 
 ```bash
 # Generate commit messages
